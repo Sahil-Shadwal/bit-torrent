@@ -19,6 +19,7 @@ enum Command {
     Info { torrent: PathBuf },
     Peers { torrent: PathBuf },
 }
+// fucking insane
 
 // Usage: your_bittorrent.sh decode "<encoded_value>"
 #[tokio::main]
